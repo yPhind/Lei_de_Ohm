@@ -1,10 +1,10 @@
 # Lei de Ohm - Projeto Web Responsivo
 
-## 📌 Sobre o Projeto
+##  Sobre o Projeto
 
 Este projeto tem como objetivo apresentar a **Lei de Ohm** de forma didática e interativa. Através de um site responsivo, explicamos os conceitos fundamentais da eletricidade e mostramos exemplos práticos para facilitar o aprendizado.
 
-## 🔧 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -35,18 +35,18 @@ project-root/
 └── index.html
 ```
 
-## 📖 Funcionalidades
+##  Funcionalidades
 
 - **Explicação da Lei de Ohm** com conceitos básicos de eletricidade.
 - **Exemplos práticos** com cálculos para facilitar o entendimento.
 - **Tabela comparativa** com valores de tensão, corrente e resistência.
 - **Design responsivo**, permitindo o acesso em diferentes dispositivos.
 
-## 🎨 Layout
+##  Layout
 
 O site possui um layout simples e intuitivo, com estilos modernos para facilitar a navegação.
 
-## 🖥️ Como Executar
+##  Como Executar
 
 1. Baixe ou clone o repositório:
    ```bash
@@ -55,7 +55,7 @@ O site possui um layout simples e intuitivo, com estilos modernos para facilitar
 2. Abra o arquivo `index.html` em um navegador web.
 3. Ou acesse o link: https://github.com/yPhind/Lei_de_Ohm
 
-## 👨‍🏫 Trabalho Acadêmico
+##  Trabalho Acadêmico
 
 Este projeto foi desenvolvido como um **trabalho em grupo** para a disciplina de **Física para Computação e Desenvolvimento Web Responsivo**.
 
