@@ -53,7 +53,7 @@ O site possui um layout simples e intuitivo, com estilos modernos para facilitar
    git clone https://github.com/seu-repositorio.git
    ```
 2. Abra o arquivo `index.html` em um navegador web.
-3. Ou acesse o link: https://krawstr.github.io/Leis-de-Ohm/ 
+3. Ou acesse o link: https://https://github.com/yPhind/Lei_de_Ohm
 
 ## 👨‍🏫 Trabalho Acadêmico
 
