@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+    <link rel="stylesheet" href="../css/navBar.css">
+    <link rel="stylesheet" href="../css/styleEx.css">
+    <script defer src="../js/mobileNavBar.js"></script>
+    <script src="../js/solution.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+                <h1 id="logo">Leis de Ohm</h1>
+            </a>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="/pages/exercicios.html">Exercicios</a></li>
+                <li><a href="calculo.html">Cálculo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="exercise-container">
+        <h3>1. Exercício 01 – Cálculo da Corrente</h3>
+        <p><strong>Enunciado:</strong> Um resistor de <strong>R = 15 Ω</strong> está sendo alimentado por uma fonte de
+            tensão <strong>V = 30 V</strong>. Qual é a corrente elétrica que passa pelo resistor?</p>
+        <button class="btn" onclick="toggleSolution('solution1')">Mostrar solução</button>
+        <div class="solution" id="solution1">
+            <strong>Fórmula da Lei de Ohm:</strong> <code>V = I ⋅ R</code><br>
+            <strong>Solução:</strong> <br>
+            Para encontrar a corrente, basta reorganizar a fórmula: <br>
+            <code>I = V / R</code><br>
+            Substituindo os valores: <br>
+            <code>I = 30 / 15</code><br>
+            <strong>I = 2 A</strong>
+        </div>
+    </div>
+
+    <div class="exercise-container">
+        <h3>2. Exercício 02 – Cálculo da Tensão</h3>
+        <p><strong>Enunciado:</strong> Se a corrente em um resistor de <strong>R = 20 Ω</strong> é de <strong>I = 2
+                A</strong>, qual é a tensão aplicada no resistor?</p>
+        <button class="btn" onclick="toggleSolution('solution2')">Mostrar solução</button>
+        <div class="solution" id="solution2">
+            <strong>Fórmula da Lei de Ohm:</strong> <code>V = I ⋅ R</code><br>
+            <strong>Solução:</strong><br>
+            Substituindo os valores conhecidos: <br>
+            <code>V = 2 ⋅ 20</code><br>
+            <strong>V = 40 V</strong>
+        </div>
+    </div>
+
+    <div class="exercise-container">
+        <h3>3. Exercício 03 – Cálculo da Resistência</h3>
+        <p><strong>Enunciado:</strong> Em um circuito, a tensão aplicada é de <strong>V = 10 V</strong> e a corrente
+            medida é de <strong>I = 0,5 A</strong>. Qual é a resistência do resistor?</p>
+        <button class="btn" onclick="toggleSolution('solution3')">Mostrar solução</button>
+        <div class="solution" id="solution3">
+            <strong>Fórmula da Lei de Ohm:</strong> <code>R = V / I</code><br>
+            <strong>Solução:</strong><br>
+            Substituindo os valores: <br>
+            <code>R = 10 / 0,5</code><br>
+            <strong>R = 20 Ω</strong>
+        </div>
+    </div>
+
+    <div class="exercise-container">
+        <h3>4. Exercício 04 – Resistor em Série</h3>
+        <p><strong>Enunciado:</strong> Se dois resistores, <strong>R₁ = 5 Ω</strong> e <strong>R₂ = 10 Ω</strong>, são
+            colocados em série, qual será a resistência total do circuito?</p>
+        <button class="btn" onclick="toggleSolution('solution4')">Mostrar solução</button>
+        <div class="solution" id="solution4">
+            <strong>Fórmula para resistores em série:</strong> <code>Rₗₒₜₐₗ = R₁ + R₂</code><br>
+            <strong>Solução:</strong><br>
+            <code>Rₗₒₜₐₗ = 5 + 10</code><br>
+            <strong>Rₗₒₜₐₗ = 15 Ω</strong>
+        </div>
+    </div>
+
+    <div class="exercise-container">
+        <h3>5. Exercício 05 – Resistor em Paralelo</h3>
+        <p><strong>Enunciado:</strong> Se dois resistores, <strong>R₁ = 30 Ω</strong> e <strong>R₂ = 60 Ω</strong>, são
+            colocados em paralelo, qual será a resistência total do circuito?</p>
+        <button class="btn" onclick="toggleSolution('solution5')">Mostrar solução</button>
+        <div class="solution" id="solution5">
+            <strong>Fórmula para resistores em paralelo:</strong> <code>1 / Rₗₒₜₐₗ = 1 / R₁ + 1 / R₂</code><br>
+            <strong>Solução:</strong><br>
+            <code>1 / Rₗₒₜₐₗ = 1 / 30 + 1 / 60</code><br>
+            <code>1 / Rₗₒₜₐₗ = 2 / 60 + 1 / 60</code><br>
+            <code>1 / Rₗₒₜₐₗ = 3 / 60</code><br>
+            <code>Rₗₒₜₐₗ = 60 / 3</code><br>
+            <strong>Rₗₒₜₐₗ = 20 Ω</strong>
+        </div>
+    </div>
+</body>
+
+</html>

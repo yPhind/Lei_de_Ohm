@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo</title>
+    <link rel="stylesheet" href="../css/navBar.css">
+    <link rel="stylesheet" href="../css/calculo.css">
+    <script defer src="../js/modules/mobileNavBar.js"></script>
+    <script defer src="../js/calculo.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">
+                <h1 id="logo">Leis de Ohm</h1>
+            </a>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="exercicios.html">Exercicios</a></li>
+                <li><a href="/pages/calculo.html">Cálculo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="display">
+        <h2>Calculo da Tensão</h2>
+        <input type="number" id="resistência_eletrica" placeholder="Digite resistência eletrica (Ω)">
+        <input type="number" id="corrente_eletrica" placeholder="Corrente eletrica (A)">
+        <br>
+        <p>Resultado: <span id="resultado"></span></p>
+        <button onclick="calcular()">Calcular</button>
+    </div>
+</body>
+
+</html>
